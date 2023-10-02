@@ -1,0 +1,8 @@
+file_format: "1"
+id: trone
+name: Trone
+type: shield
+url: https://github.com/gaoDean/trone
+requires: [pro_micro]
+features:
+  - keys
