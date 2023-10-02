@@ -6,4 +6,13 @@ if SHIELD_TRONE
 config ZMK_KEYBOARD_NAME
     default "Trone"
 
+config I2C
+    default y
+
+config GPIO_PCA95XX
+    default y
+
+config GPIO_PCA95XX_INTERRUPT
+    default y
+
 endif
