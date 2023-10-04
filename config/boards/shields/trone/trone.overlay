@@ -65,7 +65,7 @@
         gpio-controller;
         reg = <0x20>;
         label = "PCA9535";
-        interrupt-gpios = <&pro_micro 4 (GPIO_ACTIVE_LOW|GPIO_PULL_UP)>;
+        interrupt-gpios = <&pro_micro 4 GPIO_ACTIVE_LOW>;
         #gpio-cells = <2>;
         ngpios = <16>;
     };
