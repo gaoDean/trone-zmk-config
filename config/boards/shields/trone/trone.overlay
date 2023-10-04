@@ -28,6 +28,8 @@
         compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
         diode-direction = "row2col";
+        debounce-press-ms = <10>;
+        debounce-release-ms = <10>;
 
         col-gpios
             = <&expander_io 1 GPIO_ACTIVE_LOW> // external pullup
